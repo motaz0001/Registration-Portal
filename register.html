@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>REGISTRATON PORTAL</title>
+      <link rel="stylesheet type="text/css" href="style.css">
+   </head>
+   <body >
+      <div>
+         <img src="images/reg.png" width="400pt" height="200">
+         <details open>
+            <summary>Login As Student</summary>
+            <form method="post" action="register.php">
+               <table>
+                  <tr>
+                     <td>Student id</td>
+                     <td><input type="text"  name="id" required autocomplete="on" autofocus></td>
+                  </tr>
+                  <tr>
+                     <td>Password</td>
+                     <td><input type="password"  name="pass"required autocomplete="off"></td>
+                  </tr>
+                  <tr>
+                     <td colspan="2"><span><input type="submit" value="Login"></span></td>
+                  </tr>
+                  <input type="hidden" value="std" name="loginType">
+               </table>
+            </form>
+         </details>
+         <hr>
+         <details >
+            <summary>Login As Register</summary>
+            <form method="post" action="register.php">
+               <table>
+                  <tr>
+                     <td>Register id</td>
+                     <td><input type="text"  name="id" required autocomplete="on"></td>
+                  </tr>
+                  <tr>
+                     <td>Password </td>
+                     <td><input type="password"  name="pass" required autocomplete="off"></td>
+                  </tr>
+                  <tr>
+                     <td colspan="2"><span><input type="submit" value="Login"></span></td>
+                  </tr>
+                  <input type="hidden" value="reg" name="loginType">
+               </table>
+            </form>
+         </details>
+         <hr>
+         <script src="s.js"></script>
+      </div>
+   </body>
+</html>

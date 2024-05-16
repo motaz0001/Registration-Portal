@@ -1,0 +1,65 @@
+* {
+	font-family: arial;
+}
+
+.sf table {
+	font-size: 90%
+}
+
+.c {
+	color: #e84a5f;
+	font-weight: bold;
+	background-color: white;
+	margin: auto;
+}
+
+body {
+	text-align: center;
+	background-image: url("images/background.jpg");
+}
+
+hr {
+	width: 25%
+}
+
+input {
+	border-color: #e84a5f
+}
+
+form {
+	text-align: center;
+	background-color: white
+}
+
+details {
+	background-color: #e84a5f;
+	color: white;
+	width: 200pt;
+	margin: auto
+}
+
+span input:hover {
+	background-color: #e84a5f;
+	color: white
+}
+
+td {
+	color: #e84a5f;
+	text-align: center;
+	padding-left: .5em;
+	font-size: 90%;
+	font-weight: bold
+}
+
+b {
+	color: #e84a5f
+}
+
+div {
+	background-color: white;
+	width: 400pt;
+	margin: auto;
+	margin-top: 5%;
+	border-style: outset;
+	border-width: thick
+}
