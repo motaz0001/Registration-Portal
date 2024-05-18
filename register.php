@@ -61,6 +61,7 @@
             		<hr><details>
             		<summary>Registerd Courses</summary>
             			');
+		    	$id=$_SESSION["id"];
             		$q1="select * from student where student_id='$id'";
             		$result1=mysqli_query($db,$q1);
             		print('<table class="c" border="1">
